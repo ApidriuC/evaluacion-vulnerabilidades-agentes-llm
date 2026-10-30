@@ -1,0 +1,6 @@
+# Dependencias del laboratorio.
+# El arnés y el análisis (proveedor 'simulado', métricas) sólo requieren PyYAML.
+# El SDK de Anthropic sólo se necesita para el proveedor 'anthropic'.
+anthropic>=0.40
+PyYAML>=6.0
+pytest>=8.0

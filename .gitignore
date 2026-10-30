@@ -1,0 +1,22 @@
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Config local de herramientas
+.claude/
+.vscode/
+.idea/
+
+# Artefactos transitorios de extracción (regenerables)
+/v2.txt
+/proyecto.txt
+
+# Datos crudos intermedios de corridas (regenerables).
+# Se versiona solo la campaña final y los resúmenes CSV/log.
+resultados/smoke.jsonl
+resultados/piloto.jsonl
+resultados/piloto_qwen25_7b_n10.jsonl
